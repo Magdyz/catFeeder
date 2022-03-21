@@ -1,0 +1,8 @@
+
+
+crontab -e
+
+# servo app for cat feeder
+# adding this to crontab for startup working
+
+@reboot python /home/pi/Documents/Projects/servo.py &
